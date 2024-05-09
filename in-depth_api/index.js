@@ -1,9 +1,9 @@
 import express from 'express' 
-import bodyParser from 'body-parser';
+//import bodyParser from 'body-parser';
 import { exec } from 'child_process';
 
 const app = express()
-const bodyParser = require('body-parser')
+//const bodyParser = require('body-parser')
 
 app.listen(5001, ()=> console.log("api is now running on port 5001"))
 
